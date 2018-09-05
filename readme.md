@@ -1,14 +1,3 @@
-**Outdated note: the process is a lot easier now**: after you `brew install postgresql` you can initialize or stop the daemon with these commands: `brew services start postgresql` or `brew services stop postgresql`.
-
-new out put may look like
-
-```
-To have launchd start postgresql now and restart at login:
-  brew services start postgresql
-Or, if you don't want/need a background service you can just run:
-  pg_ctl -D /usr/local/var/postgres start
-```
-
 # Installing Postgres via Brew
 
 ## Pre-Reqs
